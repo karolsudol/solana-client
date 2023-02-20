@@ -2,7 +2,7 @@
 
 basic solana native program and client
 
-## config - build - deploy
+## program: config - build - deploy
 
 `solana-keygen new --no-bip39-passphrase`
 
@@ -21,3 +21,7 @@ basic solana native program and client
 ## Program Id: HGPydrVpNajDC2BjepAeMyM6PQPoVUnxj1jbN54SfLLp
 
 `solana program show --programs`
+
+## client: config - build - deploy
+
+``
