@@ -15,7 +15,7 @@ import path from "path";
   */
 const PROGRAM_KEYPAIR_PATH = path.join(
   path.resolve(__dirname, "../../dist/program"),
-  "src/program/target/deploy/program-keypair.json"
+  "program-keypair.json"
 );
 
 async function main() {

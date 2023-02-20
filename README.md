@@ -2,6 +2,12 @@
 
 basic solana native program and client
 
+## run
+
+`solana logs | grep "48K4Hy8wpKdk6p3LH2YYXyxjzG8r1wQTqxymEMs7peBn invoke" -A 3`
+
+`npm run start`
+
 ## program: config - build - deploy
 
 `solana-keygen new --no-bip39-passphrase`
@@ -24,4 +30,8 @@ basic solana native program and client
 
 ## client: config - build - deploy
 
-``
+`npm install`
+
+`npm run build:program` -> create new build file in dist via cargo
+
+`solana program deploy dist/program/program.so`
