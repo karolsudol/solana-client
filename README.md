@@ -19,3 +19,5 @@ basic solana native program and client
 `solana program deploy target/deploy/solana_client.so`
 
 ## Program Id: HGPydrVpNajDC2BjepAeMyM6PQPoVUnxj1jbN54SfLLp
+
+`solana program show --programs`
